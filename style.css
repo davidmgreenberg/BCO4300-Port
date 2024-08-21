@@ -49,13 +49,17 @@ html {
 }
 
 .goal-classes {
+    display: flex;
+    width:100%;
+    height:100%;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     font-size:36px;
 }
 
 .goalz {
-    font-size:24px;
+    font-size:18px;
     padding-top:18px;
     padding-bottom:12px;
 }
@@ -76,7 +80,12 @@ html {
 }
 
 .goal-list {
-    border:1px dotted black;
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    margin:12px;
+    border:1px solid black;
 }
 
 .container {
@@ -275,6 +284,7 @@ color: white !important;
 .resume {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .social__link {
     background-color: #f06449;
